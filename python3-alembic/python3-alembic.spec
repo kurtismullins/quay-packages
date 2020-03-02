@@ -17,7 +17,7 @@ BuildRequires:  python3dist(mako)
 BuildRequires:  python3dist(python-dateutil)
 BuildRequires:  python3dist(python-editor) >= 0.3
 BuildRequires:  python3dist(setuptools)
-BuildRequires:  python3dist(sqlalchemy) >= 1.1.0
+BuildRequires:  python3dist(rh-python36-python-sqlalchemy) >= 1.1.0
 BuildRequires:  python3dist(sphinx)
 
 %description
