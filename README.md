@@ -1,6 +1,8 @@
 # quay-packages
 
 
+Example Instructions
+```
 Create dir python3-alembic
 Create .tito/packages/python3-alembic
 Download tar.gz from pypi.org
@@ -14,3 +16,4 @@ tito build --test --rpm
 
 
 tito build --test --srpm | grep Wrote | awk '{print $2}'
+```
